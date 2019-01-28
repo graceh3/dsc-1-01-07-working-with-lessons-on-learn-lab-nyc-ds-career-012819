@@ -12,7 +12,7 @@ def test_conda_environment_activated():
 
 def test_number():
     assert number is not None, "Remember to replace None with 42!"
-    assert number == 42, "We want to assign the `number` variable to 42"
+    assert number == 27, "We want to assign the `number` variable to 42"
 
 def test_flatiron_mantra():
     assert flatiron_mantra is not None, "Remember to replace None with the flatiron_mantra, `Learn. Love. Code.`!"
